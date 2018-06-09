@@ -12,9 +12,6 @@ body{
 	border-right-width: 0;
 }
 
-#header-nav .container{
-	margin-left: 10px;
-}
 
 .navbar-brand{
 	padding-top: 8.5px;
@@ -112,6 +109,9 @@ body{
 
     background-color: transparent;
 }
+#header-nav .container{
+	margin-left: 10px;
+}
 
 }
 
@@ -122,6 +122,9 @@ body{
 
     background-color: transparent;
 }
+#header-nav .container{
+	margin-left: 10px;
+}
 	
 }
 
@@ -131,13 +134,19 @@ body{
 
     background-color: transparent;
 }
+#header-nav .container{
+	margin-left: 10px;
+}
 	
 }
 
 
 @media (max-width: 767px) {
 	#sections {margin-left: 30px;
-		margin-right: 30px;
+		margin-right: 30px;}
+	#header-nav .container{
+	margin-left: 10px;
+}
   
 
 }
