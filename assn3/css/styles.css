@@ -12,6 +12,10 @@ body{
 	border-right-width: 0;
 }
 
+#header-nav .container{
+	margin-left: 10px;
+}
+
 .navbar-brand{
 	padding-top: 8.5px;
 	
