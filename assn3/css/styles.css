@@ -1,0 +1,139 @@
+body{
+	font-size: 16px;
+	color: #fff;
+	font-family: 'Oxygen', sans-serif;
+}
+
+/*header*/
+#header-nav{
+	background-color: grey;
+	border:3px solid black;
+	border-left-width: 0;
+	border-right-width: 0;
+}
+
+.navbar-brand{
+	padding-top: 8.5px;
+	
+
+}
+
+.navbar-brand h1{
+	margin: 0;
+	color: black;
+	font-size: 1.5em;
+	font-weight: bold;
+
+}
+
+.navbar-brand a:hover ,.navbar-brand a:focus{
+	text-decoration: none;
+	text-shadow: 1px 1px 1px #2c2c2c;
+
+}
+.navbar-default .navbar-toggle
+{
+	border:2px solid black;
+
+}
+.navbar-default .navbar-toggle .icon-bar
+{
+	border:1.5px solid black;
+	border-radius: 2px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border-color: black;
+    border-top-width: 3px;
+    background-color: #fff;
+}
+#nav-list a {
+    color: #000;
+    font-size: 1.8em;
+    padding: 0;
+    line-height: 40px;
+    text-transform: uppercase;
+
+
+}
+#nav-list hr{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border-top-width: 3px;
+	border-color: #000;
+}
+
+#nav-list{
+	margin-top: 0;
+	margin-bottom: 0;
+
+}
+
+#nav-list a:hover {
+	background-color: #cccbcb;
+
+
+}/* <!--headerends-->*/
+
+.title{
+	color: #201c1c;
+	font-size: 2.1em;
+	font-weight: bold;
+	padding-top: 30px;
+}
+
+#chicken , #beef, #sushi {
+	color: #201c1c;
+	margin-top: 75px;
+	background-color: grey;
+	border:3px black solid;
+	padding: 0px 20px 20px 20px;
+}
+
+#sections h1{
+	text-align: center;
+	font-size: 1.8em;
+	font-weight: bold;
+}
+
+#sections a{
+	color: #fff;
+
+}
+#sushi{
+	margin-bottom: 75px;
+}
+@media(min-width: 1200px){
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+
+    background-color: transparent;
+}
+
+}
+
+
+@media(min-width: 992px) and (max-width: 1199px){
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+
+    background-color: transparent;
+}
+	
+}
+
+
+@media(min-width: 768px) and (max-width: 991px){
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+
+    background-color: transparent;
+}
+	
+}
+
+
+@media (max-width: 767px) {
+	#sections {margin-left: 30px;
+		margin-right: 30px;
+  
+
+}
