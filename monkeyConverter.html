@@ -167,11 +167,17 @@
             <li><a href="#" id="hcream">Heavy Cream</a></li>
         </ul>
     </div>
-    <form id="ctogf" class="">
+    
+    
+    <form id="ctogf" onsubmit="test()">
                     <div class="form-group">
                         <input id="lbsInput" type="number" class="form-control form-control-md" placeholder="Enter the number of cups...">
                     </div>
-                </form>
+    </form>
+                
+                
+                
+                
     <div class="amtInput text-center" id="amtInput">
     </div>
                 
@@ -186,6 +192,9 @@
 
 
 <script>
+    function test(){
+        return false;
+    }
         document.getElementById('ddown2').style.visibility = 'hidden';
         document.getElementById('amtInput').style.visibility = 'hidden';
         document.getElementById('ctogf').style.visibility = 'hidden';
