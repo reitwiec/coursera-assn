@@ -192,8 +192,12 @@
 
 
 <script>
-    function test(){
+    function test(event){
+        if (event.which == 13 || event.keyCode == 13) {
+        //code to execute here
         return false;
+    }
+    return true;
     }
         document.getElementById('ddown2').style.visibility = 'hidden';
         document.getElementById('amtInput').style.visibility = 'hidden';
