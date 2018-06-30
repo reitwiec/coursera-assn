@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: middle;
+}
+span.test{
+    display: block;
+    height: 50px;
+    background: red;
+    
+}
+.container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
+}
